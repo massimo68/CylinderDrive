@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CylinderDrive</string>
+    <string name="action_settings">Aiuto:massimo.grattieri@gmail.com</string>
+    <string name="str_disclaimer">Questa applicazione non deve essere utilizzata per la validazione di soluzioni applicative.\n I valori calcolati sono indicativi e non prendono in considerazione molte variabili della fisica. </string>
+    <string name="str_im_Graph">Grafico</string>
+    <string name="str_im_Cilindro">Cilindro</string>
+    <string name="str_rb_CilindroSingoloStelo">Singolo stelo</string>
+    <string name="str_rb_CilindroDoppioStelo">Doppio stelo</string>
+    <string name="str_tv_D">D [mm]</string>
+    <string name="str_ed_D">50.0</string>
+    <string name="str_tv_L">L [mm]</string>
+    <string name="str_ed_L">200.0</string>
+    <string name="str_tv_Da">Da [mm]</string>
+    <string name="str_ed_Da">36.0</string>
+    <string name="str_tv_Db">Db [mm]</string>
+    <string name="str_ed_Db">36.0</string>
+    <string name="str_tv_GruppoTubazioni">Tubazioni</string>
+    <string name="str_tv_La">La [mm]</string>
+    <string name="str_ed_La">300.0</string>
+    <string name="str_tv_Lb">Lb [mm]</string>
+    <string name="str_ed_Lb">300.0</string>
+    <string name="str_tv_da">da [mm]</string>
+    <string name="str_ed_da">20.0</string>
+    <string name="str_tv_db">db [mm]</string>
+    <string name="str_ed_db">20.0</string>
+    <string name="str_tv_GruppoMasse">Masse</string>
+    <string name="str_tv_Ml">M [Kg]</string>
+    <string name="str_ed_Ml">180.0</string>
+    <string name="str_tv_Mc">m [Kg]</string>
+    <string name="str_ed_Mc">2.4</string>
+    <string name="str_tv_GruppoCostanti">Fluido</string>
+    <string name="str_tv_Eol">Bulk [Bar]:</string>
+    <string name="str_ed_Eol">14000</string>
+    <string name="str_tv_Dol">Densità [Kg/m3]:</string>
+    <string name="str_ed_Dol">850</string>
+    <string name="str_tv_GruppoDrive">Valvola</string>
+    <string name="str_tv_Drive">Frequenza [Hz]:</string>
+    <string name="str_ed_Drive">60.0</string>
+    <string name="str_btn_Calcola">Dettagli</string>
+    <string name="str_Red">#FF0000</string>
+    <string name="str_Green">#A9F5A9</string>
+    <string name="str_Orange">#F79F81</string>
+    <string name="str_Yellow">#F4FA58</string>
+
+</resources>
