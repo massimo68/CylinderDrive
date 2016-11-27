@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="30dp"
+    android:fillViewport="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- Selezione tipo cilindro -->
+            <RadioButton
+                android:id="@+id/rb_CilindroSingoloStelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_rb_CilindroSingoloStelo" />
+            <RadioButton
+                android:id="@+id/rb_CilindroDoppioStelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_rb_CilindroDoppioStelo" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imCilindro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/str_im_Cilindro"
+            android:scaleType="fitStart"
+            android:src="@drawable/im_cilindro_doppio" />
+
+        <!--  Dimensioni cilindro  -->
+        <!-- android:background="@drawable/layout_border_dimensioni" -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="10dp" >
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_D" android:text="@string/str_tv_D" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_D" android:text="@string/str_ed_D" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"><requestFocus /></EditText>
+                <TextView android:id="@+id/tv_L" android:text="@string/str_tv_L" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_L" android:text="@string/str_ed_L" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_Da" android:text="@string/str_tv_Da" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_Da" android:text="@string/str_ed_Da" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+                <TextView android:id="@+id/tv_Db" android:text="@string/str_tv_Db" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_Db" android:text="@string/str_ed_Db" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_GruppoTubazioni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_tv_GruppoTubazioni"
+                android:textStyle="bold" />
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_La" android:text="@string/str_tv_La" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_La" android:text="@string/str_ed_La" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+                <TextView android:id="@+id/tv_Lb" android:text="@string/str_tv_Lb" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_Lb" android:text="@string/str_ed_Lb" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_da" android:text="@string/str_tv_da" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_da" android:text="@string/str_ed_da" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+                <TextView android:id="@+id/tv_db" android:text="@string/str_tv_db" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_db" android:text="@string/str_ed_db" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_GruppoMasse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_tv_GruppoMasse"
+                android:textStyle="bold" />
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_Mc" android:text="@string/str_tv_Mc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_Mc" android:text="@string/str_ed_Mc" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+                <TextView android:id="@+id/tv_Ml" android:text="@string/str_tv_Ml" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_Ml" android:text="@string/str_ed_Ml" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--  Costanti  -->
+        <!-- android:background="@drawable/layout_border_dimensioni" -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="10dp" >
+
+
+            <TextView
+                android:id="@+id/tv_GruppoCostanti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/str_tv_GruppoCostanti"
+                android:textStyle="bold" />
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_Eol" android:text="@string/str_tv_Eol" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_Eol"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.29"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="@string/str_ed_Eol" >
+                </EditText>
+                <TextView android:id="@+id/tv_Dol" android:text="@string/str_tv_Dol" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/et_Dol" android:text="@string/str_ed_Dol" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.29" android:ems="10" android:inputType="numberDecimal"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_GruppoDrive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/str_tv_GruppoDrive"
+                android:textStyle="bold" />
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_Drive" android:text="@string/str_tv_Drive" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_Drive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.29"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="@string/str_ed_Drive" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imGraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/str_im_Graph"
+            android:scaleType="fitXY"
+            android:src="@drawable/im_graph" />
+
+        <Button
+            android:id="@+id/btn_Calcola"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|start"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="0dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/str_btn_Calcola"
+            android:capitalize="none"
+            android:textStyle="italic"
+            android:maxLines="1"
+            tools:ignore="Deprecated,TextViewEdits" />
+
+    </LinearLayout>
+
+</ScrollView>
