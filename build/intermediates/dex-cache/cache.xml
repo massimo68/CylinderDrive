@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_bdf209e420d958188871e85be047fb7fc880e5a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_a27a9aa37c7aec53e0a42da73675960e1d91d80e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_b3f8576c244058ad8cd0d1466986c1472ab1971f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Programmi\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_5a81ea9fe8ce76ec621cf402541d3d9597877d08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_a7abb5fea54db302c832cb79e5870bf5577c25e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_5ad595ef8d24f6e33c24110c1fb923fde5dbc58c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_fc60a00cd5696f06aad496cf7a8b733566fe6a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_beb04b2aa67bdd2f8501177542bcdd2487628111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_cb43e0498ca27402108b03f3ddbe6dedf6e34b47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_a291c4018684fbf10d04ca404557b93067eb150b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_0a2299c36f02ca59c0f6be9c2a81bdd6f7e4d7bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_fc15a988fbaf58652b0984a0f39c3f934ef8b717.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_aaf18062d119ce5ab01aa247534cba6e00c206cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_22f6ba1c15ae591b20529340341af55a81d5fb03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\CylinderDrive\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\Projects\CylinderDrive\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_dcf23dafe2876d5e24959f85ece9cc833aa5b878.jar" />
+    </item>
+
+</items>
